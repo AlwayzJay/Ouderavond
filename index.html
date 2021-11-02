@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./assets/CSS/main.css" rel="stylesheet" type="text/css">
+        <link href="./assets/CSS/index.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="./assets/Images/favicon.ico">
+        <meta name="vieuwport" content="width-divice-with, initial-scale=1">
+        <title>Home</title>
+    </head>
+    <body>
+        <img id="navimg" src="./assets/Images/tcr-logo-22042021.png" alt="index.html" >
+        <div id="menu">
+            <nav>
+                <ul class="nav">
+                    <a href="./Subpages/contact.html">Contact</a>
+                    <a href="./Subpages/agenda.html">Agenda</a>
+                    <a href="./Subpages/Docenten.html">Info</a>
+                    <a href="./Subpages/Blog.html">Blog</a>
+                    <a href="./Subpages/Afmelden.html">afmelden</a>
+                    <a href="./Subpages/Socials.html">Socials</a>
+                    <a href="./Subpages/school.html">Onze school</a>
+                    <a href="./Subpages/odagen.html">Open dagen</a>
+                    <a href="./Subpages/klas.html">Onze klas</a>
+                    <!--Er is geen 10de want dat is de index :)-->
+                </ul>
+            </nav>
+        </div>
+        <br>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./assets/Images/Slider1.jpg" style="width:100%">
+            </div>
+  
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./assets/Images/slider2.jpg" style="width:100%">
+            </div>
+  
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./assets/Images/slider3.jpg" style="width:100%">
+            </div>
+  
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                }
+        </script>
+        <div id="fB" class="Blokken">
+            <img src="./assets/Images/Coding.gif">
+            <h6 class="bh">programeren</h6>
+            <p>Deze opleiding is vooral gebazeerd op het programeren van front-end en back-end talen!</p>
+        </div>
+        <div class="Blokken">
+            <img src="./assets/Images/Prijs.gif">
+            <h6 class="bh">Jou specialiteiten</h6>
+            <p>Kom achter jou specialiteiten bij deze opleiding! Verdien en keer terug met jou Diploma in je hand!</p>   
+        </div>        
+        <div class="Blokken">
+            <img src="./assets/Images/Klas.gif">
+            <h6 class="bh">De mensen</h6>
+            <p>We proberen met iedereen zich thuis te laten voelen voor de leukste tijden door het jaar heen!</p>
+        </div>
+        <br>
+        <footer class="footer">
+            <hr id="fhr">
+            <a></a>
+            <p>Jahden Pedro - SODG1- 2021 &#169</p>
+        </footer>
+    </body>
+</html>

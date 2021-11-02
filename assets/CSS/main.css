@@ -1,0 +1,49 @@
+html {
+  font-family: Verdana;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.nav {
+  background-color: #BABF10;
+  font-family: Verdana;
+  overflow: hidden;
+  position: relative;
+}
+
+#menu {
+  float: right;
+}
+
+.nav a {
+  float: right;
+  padding: 16px 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover {
+  background-color: #006241;
+}
+
+#navimg {
+  position: static ;
+}
+
+footer {
+  margin-top: 25%;
+  position: relative;
+  text-align: center;
+  background-color: #BABF10;
+  max-height: fit-content;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+#fhr{
+  border-radius: 10px;
+  border-color: black;
+  color: black;
+}

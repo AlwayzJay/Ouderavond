@@ -1,0 +1,88 @@
+#fback {
+    background-color: #006241;
+}
+
+.dform {
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    text-align: center;
+}
+
+input, button {
+    border-radius: 7px;
+    border: solid white;
+}
+
+#contactimg {
+    position: relative;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 20%;
+    padding-bottom: 0px;
+}
+
+#CH {
+    margin-top: auto;
+    text-align: center;
+    position: relative;
+}
+
+.maps {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.mapback {
+    background-color: #BABF10;
+    margin-top: 500px;
+    border-top: solid black;
+}
+
+.clist {
+    float: left;
+    margin-top: 10%;
+    margin-left: 25%;
+    list-style: none;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#fhr {
+    margin-top: auto;
+}
+
+body {
+    background-image: -webkit-linear-gradient(90deg, #BABF10, #fff, #fff);
+    max-height: max-content;
+}
+
+.footers {
+    margin-top: auto;
+    position: relative;
+    text-align: center;
+    background-color: #BABF10;
+    max-height: fit-content;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+  }
+
+#cutfoot {
+    margin-top: auto;
+    position: relative;
+    text-align: center;
+    background-color: #BABF10;
+    max-height: fit-content;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.ignore-css{
+    all:unset;
+}
+  

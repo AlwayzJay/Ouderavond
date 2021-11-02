@@ -1,0 +1,26 @@
+#BH {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.blogbox {
+    width: 600px;
+    border: solid black;
+    border-radius: 15px;
+    margin-left: 35%;
+    background-color: #006241;
+    color: white;
+    text-align: center;
+}
+
+.Mainblog {
+    width: 900px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.lastp {
+    margin-bottom: 20px;
+}
+
