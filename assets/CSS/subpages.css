@@ -104,8 +104,9 @@ body {
     
 }
 
-.mainimg {
-    padding-bottom: 300PX;
+#mainimg {
+    margin-bottom: 30PX;
+    border-radius: 20px;
 }
 
 .somain {
