@@ -126,9 +126,21 @@ body {
     background-color: white;
 
 }
+
+.abody {
+    margin-left: 32%;
+}
+
+.Aheader {
+    margin-left: 25PX;
+    width: 700px;
+    text-align: center;
+}
  
 .Agenda {
     border: 1px solid black;
+    max-width: max-content;
+    position: relative;
 }
 
 table, th, td {
