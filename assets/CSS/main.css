@@ -1,5 +1,6 @@
-html {
+html, body {
   font-family: Verdana;
+  margin: 0px;
 }
 
 ::-webkit-scrollbar {
@@ -11,6 +12,7 @@ html {
   font-family: Verdana;
   overflow: hidden;
   position: relative;
+  border-radius: 10px 0px 0px 10px;
 }
 
 #menu {
@@ -26,6 +28,7 @@ html {
 
 .nav a:hover {
   background-color: #006241;
+  border-radius: 10px;
 }
 
 #navimg {
@@ -38,8 +41,8 @@ footer {
   text-align: center;
   background-color: #BABF10;
   max-height: fit-content;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
+  /* margin-bottom: 10px; */
+  padding-bottom: 10px;
 }
 
 #fhr{
